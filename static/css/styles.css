@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Adding transparency */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.album-image {
+    filter: invert(0);
+    margin-right: 50px;
+}
+.d-flex {
+    display: flex;
+}
+
+.album-cover-art img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ml-4 {
+    margin-left: 1.5rem; /* You can adjust the margin as needed */
+}
+
+#tracks li {
+    margin-bottom: 10px; /* Adjust the value to your preference */
+}
+
+
+
+
+.do-not-click {
+    margin-top: 200x;
+    float: right;
+    display: block;
+    text-align: center;
+}

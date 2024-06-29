@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+Echostream-products
+{% endblock %}
+
+{% block content %}
+<img src="{{ product['image'] }}" width="50%">
+<div class="row">
+    name: {{ product['name'] }}
+</div>
+<div class="row">
+    price: {{ product['price'] }}
+</div>
+{% endblock %}
